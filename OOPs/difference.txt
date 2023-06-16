@@ -1,0 +1,22 @@
+Static Method:
+Belongs to the class rather than an instance of the class.
+Does not have access to the instance or its attributes.
+Can be called directly on the class itself, without the need for an instance.
+Defined using the @staticmethod decorator.
+Commonly used for utility functions that do not depend on the instance or its state.
+
+
+Class Method:
+Belongs to the class and has access to class-level attributes.
+Cannot access instance-specific attributes directly.
+Can be called on both the class and its instances.
+Defined using the @classmethod decorator.
+Often used for methods that require interaction with class-level data or when creating alternative constructors.
+
+
+Instance Method:
+Belongs to an instance of the class.
+Has access to instance-specific attributes and methods.
+Must be called on an instance of the class.
+Defined without any specific decorators.
+Used for most regular methods that operate on instance data and behavior.

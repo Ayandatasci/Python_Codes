@@ -1,0 +1,72 @@
+In Python, there are five types of inheritance:
+
+1. Single inheritance: In single inheritance, a class inherits from a single base class. The derived class extends the functionality of the base class.
+
+   Example:
+   ```python
+   class BaseClass:
+       # Base class code
+
+   class DerivedClass(BaseClass):
+       # Derived class code
+   ```
+
+2. Multiple inheritance: Multiple inheritance allows a class to inherit from multiple base classes. In this type of inheritance, the derived class inherits attributes and methods from all the base classes.
+
+   Example:
+   ```python
+   class BaseClass1:
+       # Base class 1 code
+
+   class BaseClass2:
+       # Base class 2 code
+
+   class DerivedClass(BaseClass1, BaseClass2):
+       # Derived class code
+   ```
+
+3. Multilevel inheritance: Multilevel inheritance involves a chain of inheritance, where a derived class inherits from another derived class. This means that the derived class acts as the base class for another class.
+
+   Example:
+   ```python
+   class BaseClass:
+       # Base class code
+
+   class DerivedClass1(BaseClass):
+       # Derived class 1 code
+
+   class DerivedClass2(DerivedClass1):
+       # Derived class 2 code
+   ```
+
+4. Hierarchical inheritance: Hierarchical inheritance occurs when multiple derived classes inherit from a single base class. Each derived class can extend the functionality of the base class independently.
+
+   Example:
+   ```python
+   class BaseClass:
+       # Base class code
+
+   class DerivedClass1(BaseClass):
+       # Derived class 1 code
+
+   class DerivedClass2(BaseClass):
+       # Derived class 2 code
+   ```
+
+5. Hybrid inheritance: Hybrid inheritance refers to a combination of multiple types of inheritance. It involves the inheritance of both single and multiple inheritance in a single class hierarchy.
+
+   Example:
+   ```python
+   class BaseClass1:
+       # Base class 1 code
+
+   class BaseClass2:
+       # Base class 2 code
+
+   class DerivedClass(BaseClass1, BaseClass2):
+       # Derived class code
+   ```
+
+These five types of inheritance allow for different ways to structure and extend classes in Python, providing flexibility in designing object-oriented systems.
+
+ADVANTAGE: Code Reusability

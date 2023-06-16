@@ -1,0 +1,9 @@
+There are 4 basic pillars in object-oriented programming (OOP):
+
+1. Encapsulation: Encapsulation is the bundling of data (attributes) and methods (functions) into a single unit called a class. It involves the concept of hiding the internal details and implementation of an object and providing a public interface for interacting with it.
+
+2. Inheritance: Inheritance allows the creation of new classes (derived classes) based on existing classes (base classes). Derived classes inherit the attributes and methods of the base class, promoting code reusability and enabling the extension or modification of existing functionality.
+
+3. Polymorphism: Polymorphism refers to the ability of objects of different classes to be treated as objects of a common base class. It allows objects to be used interchangeably, based on their shared interface or base class, and enables code to work with objects of different types through a unified interface.
+
+4. Abstraction: Abstraction involves providing a simplified and generalized representation of an object or system. It focuses on capturing only the essential characteristics and behaviors while hiding unnecessary details. Abstraction helps in creating conceptual models that are easier to understand and work with.
